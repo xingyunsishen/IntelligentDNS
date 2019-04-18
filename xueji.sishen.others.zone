@@ -1,0 +1,14 @@
+$TTL 7200
+@ IN SOA sishen.cn. client.sishen.cn. (226041 1H 15M 1W 1D)
+sishen.cn. IN NS dns1.sishen.cn.
+dns1 IN A 172.16.51.161
+www IN A 3.3.3.3
+client IN A 172.16.1.16
+web IN A 132.1.1.1
+@ IN MX 10 mail
+mail IN A 172.16.51.154
+test.sishen.cn. IN NS ns1.test
+ns1.test IN A 172.16.51.161
+test IN A 172.16.51.161
+test01 IN A 172.16.51.161
+
